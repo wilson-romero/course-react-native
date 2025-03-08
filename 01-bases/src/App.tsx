@@ -4,6 +4,8 @@
 //import Counter from "./components/Counter"
 
 // import Login from "./components/Login"
+// import Users from './components/Users'
+import Forms from './components/Forms'
 import { AuthProvider } from "./context/AuthContext"
 
 
@@ -11,13 +13,15 @@ function App() {
 
   return (
     <AuthProvider>
-      <div className="my-4 flex flex-col justify-start items-center h-svh">
+      <div className="flex flex-col justify-start items-center h-svh bg-neutral-700 text-zinc-100 p-4">
         <h1 className="text-3xl mb-5" >React + TS</h1>
         {/* <BasicTypes /> */}
         {/* <ObjectLiteral /> */}
         {/* <BasicFunctions /> */}
         {/* <Counter /> */}
         {/* <Login /> */}
+        {/* <Users /> */}
+        <Forms />
       </div>
     </AuthProvider>
   )
